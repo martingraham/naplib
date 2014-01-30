@@ -11,7 +11,7 @@ module.exports = function(grunt) {
             },
             js: {
                 // http://stackoverflow.com/questions/18453974/how-to-ignore-files-grunt-uglify
-                src: ['naplib.js', '*.js', '!gruntfile.js'],
+                src: ['src/*.js'],
                 dest: 'distrib/<%= pkg.name %>temp.js'
             }
         },

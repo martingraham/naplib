@@ -1,6 +1,6 @@
 {
   "name": "naplib",
-  "version": "0.1",
+  "version": "0.1.0",
   "author": "Martin Graham <m.graham@napier.ac.uk>",
   "description": "Utility library for my other projects",
   "scripts": {
