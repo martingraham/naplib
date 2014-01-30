@@ -1,0 +1,32 @@
+{
+  "name": "naplib",
+  "version": "0.1",
+  "author": "Martin Graham <m.graham@napier.ac.uk>",
+  "description": "Utility library for my other projects",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martingraham/naplib.git"
+  },
+  "keywords": [
+    "utility"
+  ],
+    "dependencies": {
+        "jquery":">=2.0.3 <=2.1.0",
+        "d3":"~3.0"
+    },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0"
+  },
+  "license": "Apache v2",
+    "readmeFilename": "README.md",
+    "bugs": {
+        "url": "https://github.com/martingraham/naplib/issues"
+    }
+}
