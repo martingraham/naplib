@@ -736,6 +736,7 @@ MGNapier.NapVisLib = new function () {
             }
             else {
                 NapVisLib.html5Lacks (where, "This Browser does not support the HTML5 FileReader API");
+                button.style ("display", "none");
             }
         }
 
