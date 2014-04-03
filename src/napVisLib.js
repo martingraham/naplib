@@ -1008,6 +1008,12 @@ MGNapier.NapVisLib = new function () {
             tooltipTemplates = x;
             return rangeSlider;
         };
+        // in case outside bodies need to set details
+        rangeSlider.setRange = function (x) {
+            range[0] = Math.max (scale.range()[0], x[0]);
+            range[1] = Math.min (scale.range()[1], x[1]);
+            return rangeSlider;
+        };
 
         //console.log ("rangeSlider", rangeSlider);
         return rangeSlider;
